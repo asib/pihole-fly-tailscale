@@ -1,4 +1,5 @@
 #!/bin/sh
+set +x
 
 # The `--accept-dns=false` argument ensures that Pi-hole does NOT get configured to use itself
 # for DNS resolution, creating a circular dependency.
